@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={{fontSize: 30}}>mwema AIC CHANGAMWE SOLOOOO!</Text>
+      <Text style={{fontSize: 30}}>mwema AIC CHANGAMWE SOLOOOO!</Text>
       <StatusBar style="auto" />
     </View>
   );
