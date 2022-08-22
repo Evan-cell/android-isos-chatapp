@@ -14,7 +14,13 @@ const LoginScreen = () => {
       value={email}
       onChangeText={text => setEmail(text)}
       />
-      
+      <Input 
+      placeholder='enter your password'
+      label='Password'
+      leftIcon={{type:'material', name: 'lock'}}
+      value={password}
+      onChangeText={text => setPassword(text)}
+      />
     </View>
   )
 }
